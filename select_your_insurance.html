@@ -2,101 +2,29 @@
 <html>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Wachirawit\Desktop\STB\font-end_STB\css_in_select.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
     <meta name="keyword" content="แสงทอง, ประกันรถ, ประกันรถยนต์, xitdyoi5, ประกันเบ็ดเตล็ด, ประกันภัยโรงงาน, ประกันภัยทรัพย์สิน">
     <title>Saengthong Broker</title>
-  <style>
-        header {
+    <style>
+        .btnlay-out{
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 2%;
+            display: flex;
+  align-items: center;
+  justify-content: center;
+        }
+        footer{
+            padding-left: 3%;
             padding-top: 3%;
-            padding-left: 40%;
         }
-        #stbhead {
-            font-size: 50px;
-            color: gold;
-            padding-right: 15px;
+        .centered{
+            text-align: center;
         }
-        #bgbody {
-            background-color: skyblue;
-        }
-        #logo {
-            padding-right: 10px;
-        }
-        .container {
-            padding-left:15px;
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-        .container .btn {
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-.container .btnlayout{
-                width: 100%;
-            }
-.container .btn:hover {
-    background-color: black;
-}
-
-        @media screen and (max-width: 768px) {
-            header {
-                padding-top: 3%;
-                padding-left: 10%;
-            }
-            #stbhead {
-                font-size: 25px;
-                color: gold;
-                position: absolute;
-                margin-top: 5%;
-            }
-            #logo {
-                left: 50%;
-                width: 60px;
-                height: 60px;
-                padding-right: 5px;
-            }
-            .makeinline {
-                display: inline;
-            }
-            .container .btnlayout{
-                width: 50%;
-            }
-            .container {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-        .container .btn {
-    position: absolute;
-    bottom: 1%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 10px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-        }
-    </style>
+</style>
 </head>
-
 <body id="bgbody">
     <header>
 
@@ -106,16 +34,20 @@
         <h id="stbhead"> Saengthong Broker </h>
     </header>
     <br><br>
-    <div class="container">
-        <img class="btnlayout" src="C:\Users\Wachirawit\Desktop\STB\font-end_STB\STB's_logo/stblogo.png" alt="ประกันรถยนตร์" >
-        <button type="button" class="btn">ประกันรถยนตร์</button>
-    </div>
-    <div class="container">
-            <img class="btnlayout" src="C:\Users\Wachirawit\Desktop\STB\font-end_STB\STB's_logo/stblogo.png" alt="ประกันรถยนตร์" >
+    <div class="btnlay-out">
             <button type="button" class="btn">ประกันโรงงาน</button>
-        </div>
+            <button type="button" class="btn">ประกันรถยนต์</button>
+    </div>    
+        <div class="btnlay-out">     
+            <button type="button" class="btn">ประกันภัยทรัพย์สิน</button>
+            <button type="button" class="btn">ประกันเบ็ดเตล็ด</button>
+        </div> 
    
-
+<footer>
+    <p class="centered">
+    1 ซ.บางกระดี่ 1 แยก 10 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150
+    เบอร์โทรศัพท์ติดต่อ 02-896-2820</p>
+</footer>
 </body>
 
 </html>

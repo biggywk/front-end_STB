@@ -1,0 +1,90 @@
+        header {
+            padding-top: 3%;
+            padding-left: 40%;
+        }
+        #stbhead {
+            font-size: 50px;
+            color: gold;
+            padding-right: 15px;
+        }
+        #bgbody {
+            background-color: rgb(240, 212, 212);
+        }
+        #logo {
+            padding-right: 10px;
+        }
+            .makeinline {
+                display: inline;
+            }
+        .container {
+            padding-left:15px;
+    position: relative;
+    width: 30%;
+    max-width: 400px;
+}
+        .container .btn {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .btnlayout{
+                width: 100%;
+            }
+.container .btn:hover {
+    background-color: black;
+}
+
+        @media screen and (max-width: 768px) {
+            header {
+                padding-top: 3%;
+                padding-left: 10%;
+            }
+            #stbhead {
+                font-size: 25px;
+                color: gold;
+                position: absolute;
+                margin-top: 5%;
+            }
+            #logo {
+                left: 50%;
+                width: 60px;
+                height: 60px;
+                padding-right: 5px;
+            }
+            .makeinline {
+                display: inline;
+            }
+            .container .btnlayout{
+                width: 50%;
+            }
+            .container {
+    position: relative;
+    width: 3%;
+    max-width: 400px;
+}
+        .container .btn {
+    position: absolute;
+    bottom: 1%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+        }
